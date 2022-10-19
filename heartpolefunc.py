@@ -15,6 +15,7 @@ def wakeup(state):
     state['alertness'] = np.random.uniform(0.7, 1.3)
     state['time_since_slept'] = 0
 
+
 wakeup(state)
 print(state)
 
